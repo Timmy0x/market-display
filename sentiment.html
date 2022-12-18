@@ -1,0 +1,60 @@
+<html>
+    <!--Head-->
+    <head>
+        <title>Markets | Sentiment</title>
+
+        <link rel="stylesheet" href="styles.min.css">
+    </head>
+
+    <!--Body-->
+    <body id="body" style="overflow: scroll;">
+        <button class="back" onclick="window.location.href = '/markets/index.html'">↵</button>
+        
+        <!-- Sentiment -->
+        <div class="tradingview-widget-container">
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+            {
+            "interval": "1m",
+            "width": "90%",
+            "isTransparent": false,
+            "height": "80%",
+            "symbol": "BITSTAMP:BTCUSD",
+            "showIntervalTabs": true,
+            "locale": "en",
+            "colorTheme": "dark"
+        }
+            </script>
+        </div>
+
+        <div class="tradingview-widget-container">
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+            {
+            "interval": "1m",
+            "width": "90%",
+            "isTransparent": false,
+            "height": "80%",
+            "symbol": "BINANCE:ETHUSDT",
+            "showIntervalTabs": true,
+            "locale": "en",
+            "colorTheme": "dark"
+        }
+            </script>
+        </div>
+
+        <div class="tradingview-widget-container">
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+            {
+            "interval": "1m",
+            "width": "90%",
+            "isTransparent": false,
+            "height": "80%",
+            "symbol": "AMEX:VOO",
+            "showIntervalTabs": true,
+            "locale": "en",
+            "colorTheme": "dark"
+        }
+            </script>
+        </div>
+
+    </body>
+</html>

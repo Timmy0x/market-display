@@ -1,0 +1,33 @@
+<html>
+    <!--Head-->
+    <head>
+        <title>Markets | Crypto</title>
+
+        <link rel="stylesheet" href="styles.min.css">
+    </head>
+
+    <!--Body-->
+    <body id="body" style="overflow: hidden;">
+        <button class="back" onclick="window.location.href = '/markets/index.html'">↵</button>
+        
+        <!-- Cryptocurrency Market -->
+        <div id="crypto_overview">
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                    {
+                        "width": "99%",
+                        "height": "95%",
+                        "defaultColumn": "overview",
+                        "screener_type": "crypto_mkt",
+                        "displayCurrency": "USD",
+                        "colorTheme": "dark",
+                        "locale": "en",
+                        "theme": "dark"
+                    }
+                </script>
+            </div>
+        </div>
+
+    </body>
+</html>

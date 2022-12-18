@@ -1,0 +1,40 @@
+<html>
+    <!--Head-->
+    <head>
+        <title>Markets | In-Depth</title>
+
+        <link rel="stylesheet" href="styles.min.css">
+    </head>
+
+    <!--Body-->
+    <body id="body" style="overflow: hidden;" onload="document.body.style.display = 'block'">
+        <button class="back" onclick="window.location.href = '/markets/index.html'">↵</button>
+
+        <!-- In Depth Markets -->
+        <div id="depth_ticker">
+            <div class="tradingview-widget-container" style="margin-left: 0;">
+                <div id="tradingview_efea0"></div>
+                <script type="text/javascript" src="tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                    {
+                        "width": "99%",
+                        "height": "97%",
+                        "symbol": "NASDAQ:AAPL",
+                        "interval": "1",
+                        "timezone": "Etc/UTC",
+                        "theme": "dark",
+                        "style": "1",
+                        "locale": "en",
+                        "toolbar_bg": "#f1f3f6",
+                        "enable_publishing": false,
+                        "allow_symbol_change": true,
+                        "calendar": true,
+                        "container_id": "tradingview_efea0"
+                    }
+                    );
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
