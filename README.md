@@ -1,6 +1,8 @@
 <h1>Market Display</h1>
 Turn your old iPad or other screen into a powerful market displayer.
 
+<br>
+
 Including in-depth charts, a forex screener, crypto market caps, technical analysis, and sentiment from TradingView. To get one-second live charts, upgrade your TradingView plan.
 
 <h2>Start</h2>
